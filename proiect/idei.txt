@@ -1,0 +1,31 @@
+3 nivele de dificultate: usor, mediu si greu
+butoane:
+->start
+->renunta-vizibil cand incepe jocul
+->restart(la castig/pierdere)-vizibil la final
+-in partea de sus sa fie scor
+-in laterala stanga sa fie literele disponibile
+-in laterala dreapta omuletul
+-jos sa fie butoanele: renunta | start | restart
+
+!sa avem dictionar de cuvinte pentru fiecare nivel, de unde alegem random literele
+15 litere de unde putem alege, 
+
+nrlitere:
+easy: 5-6 litere
+medium: 7-10 litere
+hard: 11+ litere
+
+nrgreseli max:
+easy: 4
+medium: 6
+hard: 9
+
+sa fie scrie deasupra nr de incercari disponibile
+la atingerea nr maxim de greseli sa fie scris "last chance"
+mesaj de win/lose
+
+
+easy: img2->img4->img7->img9
+medium: img2->img4->img5->img6->img7->img9
+hard: toate pozele img1->..->img9
